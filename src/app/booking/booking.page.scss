@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+body{
+    background-color: #FFE5E5;
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8%;
+  transform: translateY(-50%);
+  
+}
+
+
+#container strong {
+  font-size: 40px;
+ 
+  color: #841824;
+  font-family: "Playfair Display", serif;
+  text-shadow: #300308;
+}
+
+#sub-container{
+    text-align: center;
+  position: absolute;
+
+margin-top: 6rem;
+margin-left: 2rem;
+  transform: translateY(-50%);
+}
+
+#sub-container strong{
+  font-size: 35px;
+  color: #841824;
+  font-family: "Playfair Display", serif;
+  text-shadow: #300308;
+}
+
+.schedule-container{
+    border: solid 2px #841824;
+    border-radius: 10%;
+    margin-top:7rem;
+    font-family: 'Playfair Display', serif;
+    background-color: white;
+    height: 10rem;
+    width: 4.5rem;
+   grid-template-columns: repeat(3, 1fr);
+    
+}
+.schedule-container h1{
+    margin-left: 0px;
+    font-size: 0.9rem;
+}
+
+
+.schedule-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.schedule-container:hover {
+  background-color: #97555e;
+
+  transition: all 0.5s ease;
+
+
+}
+.schedule-container a:hover {
+color:#d8adb2;
+transition: all 0.5s ease;
+}
+
+
+
+.time-container{
+ margin-top:7rem;
+  align-items: center;
+  justify-content: center;
+// display: block;
+// margin-right: auto;
+// margin-left: auto;
+}
+
+.time-subcontainer{
+    border: solid 2px #841824;
+    border-radius: 10%;
+   margin-top: 0.5rem;
+    font-family: 'Playfair Display', serif;
+    background-color: white;
+    height: 5rem;
+    width:auto;
+    align-items: center;
+    justify-content: center;
+    // margin: 10px auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 2rem;
+    
+}
+.time-subcontainer h1{
+    margin-left: 13px;
+    font-size: 1.25rem;
+}
+
+
+.time-subcontainer a{
+    text-decoration: none;
+    color: black;
+}
+
+.time-subcontainer:hover {
+  background-color: #97555e;
+
+  transition: all 0.5s ease;
+
+
+}
+.time-subcontainer a:hover {
+color:#d8adb2;
+transition: all 0.5s ease;
+
+}
+.time-subcontainer .active{
+     background-color: #97555e;
+     cursor: pointer;
+}
+
+
+.button{
+  background-color: #841824;
+  border-radius: 20%;
+  font-family: "Playfair Display", serif;
+  color: #ffffff;
+  letter-spacing: 2px;
+  border: 50px;
+  padding: 10px;
+  text-align: center; 
+  text-decoration: none;
+  width: 50%;
+  height: 50px;
+  
+}
+.button:hover{
+  background-color: #ca4a5b;
+  color:#300308;
+  transition: all 0.5s ease;
+}
+.button-text{
+  color: white;
+}

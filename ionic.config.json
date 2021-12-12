@@ -1,0 +1,7 @@
+{
+  "name": "SalonApp1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

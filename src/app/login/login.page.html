@@ -1,0 +1,42 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+<body>
+  <img src="../assets/design.png" alt="">
+</body>
+<div id="container">
+    <strong>WELCOME ONBOARD</strong>
+    <p>Log in here</p>
+    <form action="" class="input-container">
+      
+      <ion-label for="username"></ion-label>
+      <input
+        type="text"
+        placeholder="Username"
+        name="username"
+        required
+      />
+      <br />
+      <ion-label for="password"></ion-label>
+      <input 
+        type="password"
+        placeholder="Password"
+        name="password"
+        required
+      />
+      <br />
+    </form>
+    <p>
+      Don't have an account?
+      
+      <a routerLink="/signup" class="Loginhere-text"><u> Sign up here</u></a>
+    </p>
+    <ion-button shape="round" fill="outline" routerLink="/services">Log In</ion-button>
+    <!-- <button type="submit" class="button">Log In</button> -->
+  </div>
+  
+</ion-content>
